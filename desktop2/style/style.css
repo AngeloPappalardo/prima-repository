@@ -1,0 +1,71 @@
+body {
+    margin: 20px;
+    font-family: 'DM sans' sans-serif;
+    background-color: black;
+    color: white;
+}
+.header {
+    width: 100%;
+}
+.menu2 {
+    color: white;
+    text-decoration: none; 
+    padding: 20px;
+}
+a:hover {
+    text-decoration: blue;
+}
+.logo {
+    position: absolute;
+    font-size: 35px;
+    padding: 8px 60px;
+    color: white;
+    text-decoration: none; 
+}
+.menu {
+    list-style: none;
+    text-align: right;
+    padding: 20px 65px;
+}
+li{
+    display: inline;
+}
+h1 {
+    padding: 255px 110px;
+    position: absolute;
+}
+.fronted {
+    position: absolute;
+    padding: 340px 110px;
+    color: gray;
+}
+.botton1 , .botton2 {
+    position: absolute;
+    display: inline;
+}
+.botton1 {
+    padding: 400px 110px;
+}
+.botton2 {
+    padding: 400px 220px;
+}
+.botton1 a , .botton2 a {
+    color: white;
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding-right: 330px;
+    padding-left: 325px;
+}
+.photo {
+    text-align: right;
+    padding: 20px 80px;
+}
+img{
+    border: 2px solid black;
+    border-radius: 1000px;
+}

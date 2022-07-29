@@ -1,71 +1,100 @@
 body {
-    margin: 20px;
-    font-family: 'DM sans' sans-serif;
-    background-color: black;
-    color: white;
+  margin: 20px;
+  font-family: "DM sans" sans-serif;
+  background-color: black;
+  color: white;
 }
 .header {
-    width: 100%;
+  width: 100%;
 }
 .menu2 {
-    color: white;
-    text-decoration: none; 
-    padding: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
 }
 a:hover {
-    text-decoration: blue;
+  text-decoration: blue;
 }
 .logo {
-    position: absolute;
-    font-size: 35px;
-    padding: 8px 60px;
-    color: white;
-    text-decoration: none; 
+  position: absolute;
+  font-size: 35px;
+  padding: 8px 60px;
+  color: white;
+  text-decoration: none;
 }
 .menu {
-    list-style: none;
-    text-align: right;
-    padding: 20px 65px;
+  list-style: none;
+  text-align: right;
+  padding: 20px 65px;
 }
-li{
-    display: inline;
+li {
+  display: inline;
 }
 h1 {
-    padding: 255px 110px;
-    position: absolute;
+  padding: 255px 110px;
+  position: absolute;
 }
 .fronted {
-    position: absolute;
-    padding: 340px 110px;
-    color: gray;
+  position: absolute;
+  padding: 340px 110px;
+  color: gray;
 }
-.botton1 , .botton2 {
-    position: absolute;
-    display: inline;
+.botton1,
+.botton2 {
+  position: absolute;
+  display: inline;
 }
 .botton1 {
-    padding: 400px 110px;
+  padding: 400px 110px;
 }
 .botton2 {
-    padding: 400px 220px;
+  padding: 400px 220px;
 }
-.botton1 a , .botton2 a {
-    color: white;
-    text-decoration: none;
+.botton1 a,
+.botton2 a {
+  color: white;
+  text-decoration: none;
 }
-h2 {
-    text-align: center;
+.botton1 a {
+  padding: 6px 2px;
+  background-color: #27ae60;
 }
-p {
-    text-align: center;
-    padding-right: 330px;
-    padding-left: 325px;
+.botton2 a {
+  border: solid 1px #f2f2f2;
+  padding: 5px 10px;
+}
+.about {
+  text-align: center;
+}
+.lorem {
+  text-align: center;
+  padding-right: 330px;
+  padding-left: 325px;
 }
 .photo {
-    text-align: right;
-    padding: 20px 80px;
+  text-align: right;
+  padding: 20px 80px;
 }
-img{
-    border: 2px solid black;
-    border-radius: 1000px;
+img {
+  border: 2px solid black;
+  border-radius: 1000px;
+}
+.contacts {
+    display: flex;
+}
+.names {
+    padding: 10px;
+    margin: 10px;
+    flex: 50px;
+    text-align: center;
+}
+.ellipse {
+    clip-path: ellipse(30px 30px);
+    background: #212121;
+    border: 35px solid #212121;
+}
+.ellipse2 {
+    clip-path: ellipse(10px 10px);
+    background:#27AE60;
+    border: 10px solid #27AE60;
 }

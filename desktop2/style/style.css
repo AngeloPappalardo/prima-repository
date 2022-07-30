@@ -1,5 +1,4 @@
 body {
-  margin: 20px;
   font-family: "DM sans" sans-serif;
   background-color: black;
   color: white;
@@ -68,24 +67,23 @@ h1 {
 }
 .lorem {
   text-align: center;
-  padding-right: 330px;
-  padding-left: 325px;
+  padding-right: 350px;
+  padding-left: 345px;
 }
 .photo {
   text-align: right;
   padding: 20px 80px;
 }
-img {
+.imagine {
   border: 2px solid black;
   border-radius: 1000px;
 }
 .contacts {
     display: flex;
+    justify-content: center;
 }
 .names {
-    padding: 10px;
-    margin: 10px;
-    flex: 50px;
+    margin: 50px;
     text-align: center;
 }
 .ellipse {
@@ -97,4 +95,18 @@ img {
     clip-path: ellipse(10px 10px);
     background:#27AE60;
     border: 10px solid #27AE60;
+}
+.rectangle {
+  display: flex;
+  height: 280px;
+  justify-content: center;
+}
+.vector , .vector1 {
+  padding: 100px;
+  margin: 60px;
+  background: #212121;
+  color:#535353 ;
+}
+.vector1 {
+  border-bottom: solid 5px #27AE60;
 }

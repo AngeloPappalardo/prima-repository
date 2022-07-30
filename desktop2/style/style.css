@@ -9,7 +9,8 @@ body {
 .menu2 {
   color: white;
   text-decoration: none;
-  padding: 20px;
+  padding: 40px;
+  font-size: 20px;
 }
 a:hover {
   text-decoration: blue;
@@ -17,26 +18,28 @@ a:hover {
 .logo {
   position: absolute;
   font-size: 35px;
-  padding: 8px 60px;
+  padding: 30px 80px;
   color: white;
   text-decoration: none;
 }
 .menu {
   list-style: none;
   text-align: right;
-  padding: 20px 65px;
+  padding: 40px 85px;
 }
 li {
   display: inline;
 }
 h1 {
-  padding: 255px 110px;
+  padding: 255px 130px;
   position: absolute;
+  font-size: 50px;
 }
 .fronted {
   position: absolute;
-  padding: 340px 110px;
+  padding: 385px 130px;
   color: gray;
+  font-size: 20px;
 }
 .botton1,
 .botton2 {
@@ -44,10 +47,10 @@ h1 {
   display: inline;
 }
 .botton1 {
-  padding: 400px 110px;
+  padding: 450px 130px;
 }
 .botton2 {
-  padding: 400px 220px;
+  padding: 450px 265px;
 }
 .botton1 a,
 .botton2 a {
@@ -55,58 +58,98 @@ h1 {
   text-decoration: none;
 }
 .botton1 a {
-  padding: 6px 2px;
+  padding: 10px 15px;
   background-color: #27ae60;
 }
 .botton2 a {
   border: solid 1px #f2f2f2;
-  padding: 5px 10px;
+  padding: 9px 14px;
 }
 .about {
   text-align: center;
+  font-size: 50px;
 }
 .lorem {
   text-align: center;
   padding-right: 350px;
   padding-left: 345px;
+  font-size: 20px;
 }
 .photo {
   text-align: right;
-  padding: 20px 80px;
+  padding: 25px 100px;
 }
 .imagine {
   border: 2px solid black;
   border-radius: 1000px;
 }
 .contacts {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .names {
-    margin: 50px;
-    text-align: center;
+  margin: 50px;
+  text-align: center;
 }
 .ellipse {
-    clip-path: ellipse(30px 30px);
-    background: #212121;
-    border: 35px solid #212121;
+  clip-path: ellipse(30px 30px);
+  background: #212121;
+  border: 35px solid #212121;
 }
 .ellipse2 {
-    clip-path: ellipse(10px 10px);
-    background:#27AE60;
-    border: 10px solid #27AE60;
+  clip-path: ellipse(10px 10px);
+  background: #27ae60;
+  border: 10px solid #27ae60;
+}
+.names p {
+  font-size: 20px;
 }
 .rectangle {
   display: flex;
   height: 280px;
   justify-content: center;
 }
-.vector , .vector1 {
-  padding: 100px;
-  margin: 60px;
+.vector,
+.vector1 {
+  padding: 5px 75px;
+  margin: 50px;
   background: #212121;
-  color:#535353 ;
+  color: #535353;
+  font-size: 35px;
 }
 .vector1 {
-  border-bottom: solid 5px #27AE60;
+  border-bottom: solid 5px #27ae60;
+}
+.skills {
+  display: flex;
+  height: 235px;
+  justify-content: center;
+}
+.Software {
+  padding: 15px 90px;
+  background: #212121;
+  font-size: 35px;
+}
+.percentage {
+  color: #4f4f4f;
+  text-align: center;
+}
+.class {
+  color: #27ae60;
+  text-align: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  color: #4f4f4f;
+}
+#name,
+#last-name,
+#email,
+#Phone-number,
+#message {
+  text-decoration: none;
+  background-color: black;
+  border-bottom: solid 5px #4f4f4f;
+  color: #4f4f4f;
 }

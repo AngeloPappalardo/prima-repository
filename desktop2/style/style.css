@@ -140,16 +140,11 @@ h1 {
 }
 form {
   display: flex;
-  justify-content: center;
-  color: #4f4f4f;
+  flex-direction: column;
+  width: 510px;
+  margin: 0px 115px;
 }
-#name,
-#last-name,
-#email,
-#Phone-number,
-#message {
-  text-decoration: none;
-  background-color: black;
-  border-bottom: solid 5px #4f4f4f;
-  color: #4f4f4f;
+.form-input, .form-input2, .form-input3, .form-input4, .form-input5 {
+  display: flex;
+  flex-direction: column;
 }

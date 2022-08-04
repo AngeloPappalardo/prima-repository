@@ -141,8 +141,6 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  width: 510px;
-  margin: 0px 115px;
 }
 .form-input, .form-input2, .form-input3, .form-input4, .form-input5 {
   display: flex;

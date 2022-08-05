@@ -2,6 +2,7 @@ body {
   font-family: "DM sans" sans-serif;
   background-color: black;
   color: white;
+  cursor: url('/img/arrow.cur'), auto !important ;
 }
 .header {
   width: 100%;
@@ -142,7 +143,56 @@ form {
   display: flex;
   flex-direction: column;
 }
-.form-input, .form-input2, .form-input3, .form-input4, .form-input5 {
+
+.form-input {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 45px;
+}
+
+.form-input label {
+  flex: none;
+  display: block;
+  width: 125px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.form-input #last-name, #Phone-number {
+  padding-right: 310px;
+  margin-left: 35px;
+  background-color: black;
+  border: 0;
+  border-bottom: solid 2px #4f4f4f;
+  color: gray;
+}
+.form-input #name, #email {
+  padding-right: 310px;
+  margin-left: 260px;
+  background-color: black;
+  border: 0;
+  border-bottom: solid 2px #4f4f4f;
+  color: gray;
+}
+
+.form-input .input-control {
+ padding-right: 810px;
+ margin-left: 265px;
+ padding-bottom: 100px;
+ background-color: black;
+ color: gray;
+ border: solid 2px #4f4f4f;
+}
+#submit {
+  margin-left: 675px ;
+  margin-right: 685px;
+  margin-top: 35px;
+  padding: 10px;
+  background-color: #27ae60;
+  color: white;
+}
+footer{
+  text-align: center;
+  color: #4f4f4f;
+  margin-top: 170px;
 }

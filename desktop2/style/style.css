@@ -10,16 +10,17 @@ body {
 .menu2 {
   color: white;
   text-decoration: none;
-  padding: 40px;
   font-size: 20px;
+  margin: 40px;
+  cursor: url('/img/help.cur'), auto !important;
 }
-a:hover {
-  text-decoration: blue;
+a {
+  cursor: url('/img/help.cur'), auto !important;
 }
 .logo {
   position: absolute;
   font-size: 35px;
-  padding: 30px 80px;
+  margin: 30px 80px;
   color: white;
   text-decoration: none;
 }
@@ -48,10 +49,10 @@ h1 {
   display: inline;
 }
 .botton1 {
-  padding: 450px 130px;
+  margin: 450px 130px;
 }
 .botton2 {
-  padding: 450px 265px;
+  margin: 450px 265px;
 }
 .botton1 a,
 .botton2 a {
@@ -72,13 +73,13 @@ h1 {
 }
 .lorem {
   text-align: center;
-  padding-right: 350px;
-  padding-left: 345px;
+  margin-right: 350px;
+  margin-left: 345px;
   font-size: 20px;
 }
 .photo {
   text-align: right;
-  padding: 25px 100px;
+  margin: 25px 100px;
 }
 .imagine {
   border: 2px solid black;
@@ -110,8 +111,7 @@ h1 {
   height: 280px;
   justify-content: center;
 }
-.vector,
-.vector1 {
+.vector {
   padding: 5px 75px;
   margin: 50px;
   background: #212121;
@@ -120,6 +120,7 @@ h1 {
 }
 .vector1 {
   border-bottom: solid 5px #27ae60;
+  margin: -35px -75px;
 }
 .skills {
   display: flex;
@@ -138,10 +139,6 @@ h1 {
 .class {
   color: #27ae60;
   text-align: center;
-}
-form {
-  display: flex;
-  flex-direction: column;
 }
 
 .form-input {
@@ -165,6 +162,7 @@ form {
   border: 0;
   border-bottom: solid 2px #4f4f4f;
   color: gray;
+  cursor: url('/img/text.cur'), auto !important;
 }
 .form-input #name, #email {
   padding-right: 310px;
@@ -173,6 +171,7 @@ form {
   border: 0;
   border-bottom: solid 2px #4f4f4f;
   color: gray;
+  cursor: url('/img/text.cur'), auto !important;
 }
 
 .form-input .input-control {
@@ -182,17 +181,47 @@ form {
  background-color: black;
  color: gray;
  border: solid 2px #4f4f4f;
+ cursor: url('/img/text.cur'), auto !important;
 }
 #submit {
-  margin-left: 675px ;
-  margin-right: 685px;
+  margin-left: 700px ;
   margin-top: 35px;
   padding: 10px;
   background-color: #27ae60;
   color: white;
+  cursor: url('/img/help.cur'), auto !important;
 }
 footer{
   text-align: center;
   color: #4f4f4f;
   margin-top: 170px;
+}
+/* hover */
+li :hover {
+  border-bottom: solid 2px blue;
+
+}
+.botton1 :hover {
+  border: solid 2px blue;
+}
+.botton2 :hover  {
+  border: solid 2px blue;
+}
+.form-input .input-control:hover {
+  border: 2px solid blue;
+}
+.form-input #name:hover {
+  border-bottom: 2px solid blue;
+}
+.form-input #email:hover {
+  border-bottom: 2px solid blue;
+}
+.form-input #last-name:hover {
+  border-bottom: 2px solid blue;
+}
+.form-input #Phone-number:hover {
+  border-bottom: 2px solid blue;
+}
+#submit:hover {
+  border: solid 2px blue;
 }

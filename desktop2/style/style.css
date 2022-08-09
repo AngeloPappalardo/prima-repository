@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'DMSans';
-  src: url('/fonts/DM_Sans/DMSans-Regular.ttf')  format('truetype');
+  font-family: "DMSans";
+  src: url("/fonts/DM_Sans/DMSans-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'DMSans';
-  src: url('/fonts/DM_Sans/DMSans-Medium.ttf')  format('truetype');
+  font-family: "DMSans";
+  src: url("/fonts/DM_Sans/DMSans-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'DMSans';
-  src: url('/fonts/DM_Sans/DMSans-Bold.ttf')  format('truetype');
+  font-family: "DMSans";
+  src: url("/fonts/DM_Sans/DMSans-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 
@@ -54,13 +54,13 @@ li {
   display: inline;
 }
 h1 {
-  padding: 255px 130px;
+  margin: 200px 0px;
   position: absolute;
   font-size: 50px;
 }
 .fronted {
   position: absolute;
-  padding: 385px 130px;
+  margin: 325px 0px;
   color: gray;
   font-size: 20px;
 }
@@ -70,10 +70,10 @@ h1 {
   display: inline;
 }
 .botton1 {
-  margin: 450px 130px;
+  margin: 390px 0px;
 }
 .botton2 {
-  margin: 450px 265px;
+  margin: 390px 140px;
 }
 .botton1 a,
 .botton2 a {
@@ -98,13 +98,13 @@ h1 {
   margin-left: 345px;
   font-size: 20px;
 }
-.photo {font-weight: 500;
+.photo {
   text-align: right;
-  margin: 25px 100px;
 }
 .imagine {
-  border: 2px solid black;
-  border-radius: 1000px;
+  border: 5px solid #1e1d1d;
+  border-radius: 325px;
+  margin-top: 23px;
 }
 .contacts {
   display: flex;
@@ -128,7 +128,6 @@ h1 {
   font-size: 20px;
 }
 
-
 .tecnologies {
   display: flex;
   justify-content: space-between;
@@ -142,7 +141,7 @@ h1 {
 }
 
 .tecnology--active {
-  border-bottom: 5px solid #27AE60;
+  border-bottom: 5px solid #27ae60;
 }
 
 .tecnology-name {
@@ -150,19 +149,6 @@ h1 {
   font-size: 36px;
   font-weight: 500;
   margin: 30px 0 0 0;
-}
-
-
-.vector {
-  padding: 5px 75px;
-  margin: 50px;
-  background: #212121;
-  color: #535353;
-  font-size: 35px;
-}
-.vector1 {
-  border-bottom: solid 5px #27ae60;
-  margin: -35px -75px;
 }
 .skills {
   display: flex;
@@ -219,11 +205,12 @@ h1 {
   margin-left: 18px;
 }
 
-.form-input input, .form-input textarea {
+.form-input input,
+.form-input textarea {
   background-color: #171717;
   border: 0;
   border-bottom: solid 2px #4f4f4f;
-  color: #4F4F4F;
+  color: #4f4f4f;
   padding-bottom: 10px;
 }
 
@@ -243,7 +230,7 @@ h1 {
   background-color: #27ae60;
   color: white;
 }
-footer{
+footer {
   text-align: center;
   color: #4f4f4f;
   margin-top: 170px;
@@ -251,12 +238,11 @@ footer{
 /* hover */
 li :hover {
   border-bottom: solid 2px blue;
-
 }
 .botton1 :hover {
   border: solid 2px blue;
 }
-.botton2 :hover  {
+.botton2 :hover {
   border: solid 2px blue;
 }
 #submit:hover {

@@ -37,7 +37,7 @@ body {
 .bottom1 {
   display: inline;
   margin-top: 25px;
-  margin-left: 595px;
+  margin-left: 625px;
   margin-bottom: 135px;
 }
 .bottom1 a {
@@ -54,7 +54,7 @@ body {
 }
 .line {
   position: absolute;
-  border-bottom: solid 5px #14a58c;  
+  border-bottom: solid 5px #00000021;
   width: 100px;
   margin-left: 705px;
   margin-top: 80px;
@@ -74,5 +74,127 @@ body {
   justify-content: center;
   gap: 110px;
   text-align: center;
-
+}
+.container-team {
+  display: grid;
+  background: #e7f1f8;
+}
+.team--h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #3c4761;
+}
+.team--p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+  color: #3c4761;
+}
+.team-h2 {
+  color: #27283d;
+  font-size: 24px;
+}
+.team-h3 {
+  color: #30bae7;
+  font-size: 15px;
+}
+.team-p {
+  color: #3c4761;
+  font-size: 15px;
+}
+.social {
+  padding-bottom: 110px;
+}
+.container-skills {
+  display: grid;
+}
+.skills--h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #3c4761;
+}
+.skills--p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+  color: #3c4761;
+}
+.skills-h2 {
+  color: #3c4761;
+  font-size: 25px;
+  padding-bottom: 95px;
+}
+.container-portfolio {
+  display: grid;
+  background: #ffdd99;
+}
+.portfolio--h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #393939;
+}
+.portfolio--p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0px;
+  color: #393939;
+}
+.categories {
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 48px;
+}
+.categories a {
+  text-decoration: none;
+  color: #393939;
+  background: #00000012;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 18px;
+}
+.container-works {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.container-works-row {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.works-p {
+  text-align: center;
+  color: #393939;
+  font-size: 18px;
+}
+.bottom2 {
+  display: inline;
+  margin-top: 25px;
+  margin-left: 625px;
+  margin-bottom: 95px;
+}
+.bottom2 a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #17c2a4;
+  padding: 20px 65px;
+  border-radius: 5px;
+  border-bottom: 4px solid #14a58c;
+}
+.container-people {
+  display: grid;
+  background: #d74680;
+}
+.people--h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.people--p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: -10px;
 }

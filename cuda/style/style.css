@@ -1,6 +1,6 @@
 body {
   color: #ffffff;
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
 }
 .container-header {
   display: grid;
@@ -290,7 +290,6 @@ form {
   border-bottom: 4px solid #299ec5;
   margin-top: 50px;
   margin-bottom: 100px;
-  
 }
 .container-footer {
   display: grid;
@@ -308,7 +307,7 @@ footer {
   margin: 35px;
 }
 .menu2:hover {
-  background-color: #87509C;
+  background-color: #87509c;
   border-left: 1px solid rgba(0, 0, 0, 0.176);
   border-right: 1px solid rgba(0, 0, 0, 0.176);
   border-bottom: 5px solid rgba(0, 0, 0, 0.176);
